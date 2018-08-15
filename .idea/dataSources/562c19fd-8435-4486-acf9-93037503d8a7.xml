@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="test">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bbc5.1"/>
+    <schema id="4" parent="1" name="bbs"/>
+    <schema id="5" parent="1" name="demo_inxedu_v2_0_open"/>
+    <schema id="6" parent="1" name="information_schema"/>
+    <schema id="7" parent="1" name="jtqy"/>
+    <schema id="8" parent="1" name="kj_es"/>
+    <schema id="9" parent="1" name="kuajing"/>
+    <schema id="10" parent="1" name="mysql"/>
+    <schema id="11" parent="1" name="ordercenter"/>
+    <schema id="12" parent="1" name="performance_schema"/>
+    <schema id="13" parent="1" name="productcenter"/>
+    <schema id="14" parent="1" name="wuliubd"/>
+    <table id="15" parent="2" name="users">
+      <Comment>用户表</Comment>
+    </table>
+    <column id="16" parent="15" name="name">
+      <Position>1</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+  </database-model>
+</dataSource>
